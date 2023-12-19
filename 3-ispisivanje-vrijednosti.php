@@ -26,14 +26,14 @@
     $stampa = "Print radi isto sto i echo";
     print $stampa;
     echo '<hr>';
-    $programski_jezici=array('php','js','java','c++');
+    $programski_jezici = array('php', 'js', 'java', 'c++');
     //                          0    1     2      3
     // echo'<pre>';
     // var_dump($programski_jezici);
     // echo'</pre>';
-    echo'<pre>';
+    echo '<pre>';
     print_r($programski_jezici);
-    echo'</pre>';
+    echo '</pre>';
 
     $broj = 124;
     var_dump($broj);
