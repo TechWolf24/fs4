@@ -6,22 +6,21 @@
     <title>PHP</title>
 </head>
 <body>
-    <h2>Komentari</h2>
+    <h1>Komentari</h1>
     <ul>
-        <li>jednolinijski komentar</li>
-        <li>blok komentar</li>
+        <li>Linijski - jednoredni</li>
+        <li>Blok komentar - viseredni</li>
     </ul>
-    <?php
-    //linijski komentar
-    echo 'jednolinijski komentar'
+    <?php 
+    // linijski 
+    echo 'jednolinijski ili jednoredni komentar'
     /*
-    sanele ti odradi
-    vukasine 
-    tvojje footer
+    sanele ti odradi formu
+    vukasine ti odradi header
+    arnolde tvoj je footer
     */
-    /*echo '<br>';
-    echo 'ovu i prethodnu liniju cemo iskljuciti'*/  
-      ?>
-    
+    // echo '<br>';
+    // echo 'ovu i prehtodnu liniju cemo da sakrijemo';
+    ?>
 </body>
 </html>
